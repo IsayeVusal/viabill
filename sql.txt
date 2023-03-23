@@ -1,0 +1,8 @@
+SELECT t.customerID, t.transactionID,t.price,t.paytmentStatus1,t.paytmentStatus2,t.paytmentStatus3,t.paytmentStatus4,
+c.sex,c.age,COALESCE(c.Income, 999) AS Income
+FROM (
+  SELECT customerID, price,paytmentStatus1,paytmentStatus2,paytmentStatus3,paytmentStatus4, MAX(transactionID) AS transactionID
+  FROM transactions
+  GROUP BY customerID
+) t
+LEFT JOIN customers c ON t.customerID = c.customerID;
