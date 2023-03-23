@@ -20,11 +20,12 @@ Task was done in 3 different ways:
 3. Using optimal binning each variable was binned with weight of evidence WOE metric and monotonic trend. target category was used as paid/not-paid
 
 Pre processing steps include:
-exploratory data analysis (EDA)
-null values
-outlier detection and treatment
-feature creation
-feature importance
+
+1. exploratory data analysis (EDA)
+2. null values
+3. outlier detection and treatment
+4. feature creation
+5. feature importance
 
 Modeling stpes include:
 ML models used - Logistic Regression, Random Forest, XGB and LightGBM
