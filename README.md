@@ -28,15 +28,18 @@ Pre processing steps include:
 5. feature importance
 
 Modeling stpes include:
-ML models used - Logistic Regression, Random Forest, XGB and LightGBM
-Optimization techniques - Grid search and cross validation
-Performance measures  - confusion matrix, classification table ( recall, f1 score an etc.), Roc curve , Roc Auc score and Gini coefficient
+
+1. ML models used - Logistic Regression, Random Forest, XGB and LightGBM
+2. Optimization techniques - Grid search and cross validation
+3. Performance measures  - confusion matrix, classification table ( recall, f1 score an etc.), Roc curve , Roc Auc score and Gini coefficient
 
 Deployment:
-Deployment was done on sample new 10 customers with 'price', 'sex', 'age', 'income','trans_price_avg_lst3' informations.
-Probability of default was calculated by given ML model for new customers.
+
+1. Deployment was done on sample new 10 customers with 'price', 'sex', 'age', 'income','trans_price_avg_lst3' informations.
+2. Probability of default was calculated by given ML model for new customers.
 
 Customer segmentation:
-Dendogram was used to clarify segment size.
-Hierarchical Clustering was utilized to predict target.
-Using groupby method customer segmentation analysis was shown.
+
+1. Dendogram was used to clarify segment size.
+2. Hierarchical Clustering was utilized to predict target.
+3.  groupby method customer segmentation analysis was shown.
